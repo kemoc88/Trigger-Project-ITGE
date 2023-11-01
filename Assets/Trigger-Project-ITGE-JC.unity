@@ -931,6 +931,12 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c4c189bd486e7b143b61df706440398b, type: 3}
+--- !u!23 &928567030 stripped
+MeshRenderer:
+  m_CorrespondingSourceObject: {fileID: -7511558181221131132, guid: 03221df603638bb46bd910e2a3e4e03f,
+    type: 3}
+  m_PrefabInstance: {fileID: 2017657667}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &957052562
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1453,9 +1459,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ae59af09c817d654fb59bfc44a3cbacf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetRenderer: {fileID: 1951684189}
+  targetRenderer: {fileID: 928567030}
   onColor: {r: 1, g: 1, b: 1, a: 1}
-  offColor: {r: 0.028301895, g: 0.027634397, b: 0.027634397, a: 1}
+  offColor: {r: 0, g: 0, b: 0, a: 1}
 --- !u!1 &1403039273
 GameObject:
   m_ObjectHideFlags: 0
@@ -1952,12 +1958,6 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 4c3e2b224fed77145b56275b008c32e6, type: 3}
---- !u!23 &1951684189 stripped
-MeshRenderer:
-  m_CorrespondingSourceObject: {fileID: -7511558181221131132, guid: 03221df603638bb46bd910e2a3e4e03f,
-    type: 3}
-  m_PrefabInstance: {fileID: 1993322508}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1981894727
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2045,7 +2045,7 @@ PrefabInstance:
       insertIndex: -1
       addedObject: {fileID: 182559039}
   m_SourcePrefab: {fileID: 100100000, guid: 2c65c06014d1bb24f95005ab090823a9, type: 3}
---- !u!1001 &1993322508
+--- !u!1001 &2017657667
 PrefabInstance:
   m_ObjectHideFlags: 0
   serializedVersion: 2
@@ -2056,7 +2056,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 03221df603638bb46bd910e2a3e4e03f,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.19716734
+      value: -0.39222956
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 03221df603638bb46bd910e2a3e4e03f,
         type: 3}
@@ -2066,7 +2066,7 @@ PrefabInstance:
     - target: {fileID: -8679921383154817045, guid: 03221df603638bb46bd910e2a3e4e03f,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 1.4890366
+      value: 1.8850517
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: 03221df603638bb46bd910e2a3e4e03f,
         type: 3}
@@ -2128,7 +2128,6 @@ SceneRoots:
   - {fileID: 957052562}
   - {fileID: 1981894727}
   - {fileID: 1157942076}
-  - {fileID: 1993322508}
   - {fileID: 435612313}
   - {fileID: 1662273803}
   - {fileID: 1249089665}
@@ -2137,6 +2136,7 @@ SceneRoots:
   - {fileID: 1769477826}
   - {fileID: 558611957}
   - {fileID: 1505009831}
-  - {fileID: 1337936986}
+  - {fileID: 2017657667}
   - {fileID: 1639174367}
   - {fileID: 539924937}
+  - {fileID: 1337936986}
